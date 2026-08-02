@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Cuadre de Caja",
+    "slug": "cuadre-de-caja",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.luismmo.cuadreDeCaja"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.luismmo.cuadreDeCaja"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-print"
+    ]
+  }
+}
